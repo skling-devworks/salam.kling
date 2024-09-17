@@ -145,5 +145,16 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 20px 
+    padding: 20px 0;
+}
 
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .skills-section ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
